@@ -1,0 +1,41 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bignumber.js": "8.1.1",
+    "bootstrap": "4.3.1",
+    "escape-string-regexp": "1.0.5",
+    "form-serialize": "0.7.2",
+    "openzeppelin-solidity": "1.12.0",
+    "prop-types": "15.7.2",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-icons": "2.2.7",
+    "react-redux": "6.0.1",
+    "react-redux-loading": "1.0.1",
+    "react-router-dom": "4.3.1",
+    "react-scripts": "2.1.5",
+    "reactstrap": "7.1.0",
+    "redux": "4.0.1",
+    "redux-thunk": "2.3.0",
+    "sort-by": "1.2.0",
+    "web3": "^1.0.0-beta.37"
+  },
+  "scripts": {
+    "dapp": "PORT=8000 react-scripts start",
+    "start": "PORT=8000 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

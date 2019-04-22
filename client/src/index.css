@@ -1,0 +1,224 @@
+
+html, body, .root {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+}
+body, .app {
+  background: rgb(208, 227, 231);
+}
+
+.header {
+  background-image: url('./images/flight.jpg'); /* Source: iStockPhoto */
+  padding-top: 4px;
+  padding-left: 4px;
+  margin-top: 4px;
+  margin-left: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #252525;
+}
+
+.container {
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.center {
+  text-align: center;
+}
+
+.active {
+  font-weight: bold;
+}
+
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 4px;
+  background-color: #7cd0e6;
+  border-radius: 4px;
+  border: 1px solid #4961e6;
+}
+
+.nav li:first-child {
+  padding-left: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 4px;
+  text-decoration: none;
+}
+
+.address-area {
+  border-radius: 4px;
+  border: 1px solid #dad7d7;
+  padding: 10px;
+  font-size: 15px;
+  height: 10px;
+}
+
+.airline-container {
+  width: 100%;
+  max-width: 590px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  background: rgb(208, 227, 231);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #4961e6;
+}
+
+.airline {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  margin: 0 auto;
+  cursor: pointer;
+  background-color: #fafafa;
+  border-radius: 8px;
+  border: 1px solid #4961e6;
+}
+
+.airline-info {
+  width: 100%;
+  display: flex;
+  padding: 8px;
+  flex-direction: column;
+}
+
+.flight-container {
+  width: 100%;
+  max-width: 590px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  background: rgb(208, 227, 231);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #4961e6;
+}
+
+
+.flight {
+  width: 100%;
+  max-width: 590px;
+  display: flex;
+  margin: 0 auto;
+  border: 1px solid #dbd7d7;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #dbd7d7;
+}
+
+.flight-info {
+  width: 100%;
+  display: flex;
+  padding: 8px;
+  flex-direction: column;
+}
+.flight-icons {
+  display: flex;
+  align-items: center;
+}
+
+.flight-icon {
+  font-size: 27px;
+  color: #697784;
+}
+
+.procedure-container {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  background: rgb(208, 227, 231);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #4961e6;
+}
+.procedure {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  margin: 0 auto;
+  cursor: pointer;
+  background-color: #fafafa;
+  border-radius: 8px;
+  border: 1px solid #4961e6;
+}
+
+.procedure-info {
+  width: 100%;
+  background-color: #fafafa;
+  border-radius: 4px;
+  border: 1px solid #4961e6;
+}
+
+
+.top-20 {
+    margin-top: 20px;
+}
+
+h5 {
+    color: #999999;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.field {
+    font-weight: bold;
+    text-align: right;
+}
+
+.field-value {
+    color: #0e7fa8;
+}
+
+.text-green {
+  background-color: #13a80e;
+  border-radius: 4px;
+  border: 1px solid #4961e6;
+  padding: 2px;
+}
+.text-red {
+  background-color: #a8320e;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid #4961e6;
+  padding: 2px;
+}
+
+label.form {
+    font-size: 14px;
+    margin-right: 20px;
+}
+input {
+    margin-right: 30px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,9 @@
+export default {
+    // Watch contract events
+    STATUS_CODE_UNKNOWN: 0,
+    STATUS_CODE_ON_TIME: 10,
+    STATUS_CODE_LATE_AIRLINE: 20,
+    STATUS_CODE_LATE_WEATHER: 30,
+    cSTATUS_CODE_LATE_TECHNICAL: 40,
+    STATUS_CODE_LATE_OTHER: 50,
+};
