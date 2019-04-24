@@ -1,7 +1,4 @@
 const path = require("path");
-//var mnemonic = "candy maple cake sugar pudding cream honey rich smooth crumble sweet treat";
-//var mnemonic = "smile equal furnace lens crunch person cause sword goddess print answer reason";
-
 
 module.exports = {
   // See <http://truffleframework.com/docs/advanced/configuration>
